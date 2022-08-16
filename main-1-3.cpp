@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-extern copy_integers(int old_array[],int new_array[],int length);
+extern void copy_integers(int old_array[],int new_array[],int length);
 
 int main ()
 {
