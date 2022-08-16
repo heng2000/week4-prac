@@ -11,10 +11,5 @@ int main ()
         old_array[i] =i;
     }
     copy_doubles(old_array,new_array,lenght_of_array);
-    for (int j =0;j<lenght_of_array;j++)
-    {
-        cout<<new_array[j];
-    }
-    cout<<endl;
     return 0;
 }
