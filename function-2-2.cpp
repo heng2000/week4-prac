@@ -39,16 +39,6 @@ int max_sub_sum(int *nums,int length)
             arr[n][m] =arr[n][m-1]+nums[m];
         }
     }
-
-
-    for(int q =0;q<length;q++)
-    {
-        for (int w =0;w<length;w++)
-        {
-            cout<<arr[q][w]<<"  ";
-        }
-        cout<<endl;
-    }
     int result =arr[0][0];
     for (int a =0;a<length;a++)
     {
